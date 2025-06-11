@@ -1,47 +1,104 @@
-# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
+# 🐦 X-Clone – A Full-Stack Social Media Platform
 
-![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
+A powerful, full-featured Twitter/X clone built with the **MERN** stack, featuring modern UI, robust backend, and cloud media management. 🚀
 
-[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
+![Demo](https://x-clone-jrdx.onrender.com)
 
-Some Features:
+## 🔧 Tech Stack
 
--   ⚛️ Tech Stack: React.js, MongoDB, Node.js, Express, Tailwind
--   🔐 Authentication with JSONWEBTOKENS (JWT)
--   🔥 React Query for Data Fetching, Caching etc.
--   👥 Suggested Users to Follow
--   ✍️ Creating Posts
--   🗑️ Deleting Posts
--   💬 Commenting on Posts
--   ❤️ Liking Posts
--   🔒 Delete Posts (if you are the owner)
--   📝 Edit Profile Info
--   🖼️ Edit Cover Image and Profile Image
--   📷 Image Uploads using Cloudinary
--   🔔 Send Notifications
--   🌐 Deployment
--   ⏳ And much more!
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas with Mongoose
+- **Authentication**: JWT (JSON Web Tokens)
+- **Data Management**: React Query
+- **Image Hosting**: Cloudinary
 
-### Setup .env file
+## ✨ Features
 
-```js
-MONGO_URI=...
-PORT=...
-JWT_SECRET=...
-NODE_ENV=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+- 🔐 **User Authentication** with JWT
+- 👥 **Suggested Users** to follow
+- ✍️ **Create Posts**
+- ❤️ **Like Posts**
+- 💬 **Comment on Posts**
+- 🗑️ **Delete Posts** (only if you're the owner)
+- 🔒 **Secure Routes** for protected actions
+- 📝 **Edit Profile Info**
+- 🖼️ **Upload & Update Profile and Cover Images**
+- 📷 **Image Uploads** via Cloudinary
+- 🔔 **Send Notifications**
+- 🌐 **Fully Deployed**
+- ⚡ **Fast, Responsive UI**
+- 🧠 **Much more to explore!**
 
-### Build the app
 
-```shell
-npm run build
-```
+## ⚙️ Setup Instructions
 
-### Start the app
+1. Clone the Repository
+    ```bash
+    git clone https://github.com/yourusername/x-clone.git
+    cd x-clone
 
-```shell
-npm start
-```
+2. Install Dependencies
+   ```
+   # Install frontend dependencies
+   cd frontend
+   npm install
+
+   # Install backend dependencies
+   cd ..
+   npm install
+
+3. Configure Environment Variables
+   Create a .env file in the root directory and add the following:
+   ```
+   MONGO_URI=your_mongo_uri
+   PORT=5000
+   JWT_SECRET=your_jwt_secret
+   NODE_ENV=development
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+4. Build the Frontend
+   ```
+   cd client
+   npm run build
+
+5. Build the Backend
+   ```
+   cd ..
+   npm run build
+
+6. Start the Application
+   ```
+   npm start
+
+## 🚀 Deployment
+  - This project is production-ready and can be deployed on Render
+  - Don’t forget to set the environment variables on your hosting service!
+
+## 🧪 Future Improvements
+  - Direct messaging
+  - Repost functionality
+  - Dark mode toggle
+
+## 📸 Screenshots
+
+<div align="center">
+  <br />
+  <img src="./App Screenshorts/1.png" alt="Project Banner">
+  <img src="./App Screenshorts/3.png" alt="Project Banner">
+  <img src="./App Screenshorts/4.png" alt="Project Banner">
+  <img src="./App Screenshorts/2.png" alt="Project Banner">
+  <img src="./App Screenshorts/5.png" alt="Project Banner">
+  <br />
+</div>
+
+
+## 🙌 Acknowledgements
+  - Inspired by X
+  - Built with ❤️ by Sunil Sowrirajan
+
+## 📬 Contact
+  For feedback or collaboration, reach out at: suniltechy@gmail.com
+
