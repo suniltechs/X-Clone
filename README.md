@@ -2,7 +2,7 @@
 
 A powerful, full-featured Twitter/X clone built with the **MERN** stack, featuring modern UI, robust backend, and cloud media management. 🚀
 
-![Demo](https://x-clone-jrdx.onrender.com)
+![Demo](https://x-clone-jrdx.onrender.com/login)
 
 ## 🔧 Tech Stack
 
